@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 50%;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: blueviolet;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+form input {
+  width: 100%;
+  outline: none;
+  padding: .6rem 1rem;
+}
+
+form button {
+  padding: .4rem .6rem;
+}
+
+ul li {
+  list-style: none;
+  display: block;
+}
+
+.todo-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px black solid;
+  padding-bottom: 1rem;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+  padding: .6rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-archive {
+  padding: .6rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.btn-publish {
+  background-color: green;
+  color: white;
+  padding: .6rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.display-todo {
+  border: none;
+  outline: none;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem ;
+}
